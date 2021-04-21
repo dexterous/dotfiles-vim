@@ -1,6 +1,8 @@
 set guifont=Inconsolata\ for\ Powerline\ Medium\ 10
 set anti " Antialias font
 
+set fullscreen
+
 set guioptions-=T " remove toolbar
 set guioptions-=m " remove menu
 set guioptions-=r " remove right scrollbar
