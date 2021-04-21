@@ -1,4 +1,9 @@
-set guifont=Inconsolata\ for\ Powerline\ Medium\ 10
+if has('mac')
+  set guifont=InconsolataForPowerline:h11
+else
+  set guifont=Inconsolata\ for\ Powerline\ Medium\ 10
+endif
+
 set anti " Antialias font
 
 set fullscreen
