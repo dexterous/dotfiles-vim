@@ -185,7 +185,7 @@ let g:tagbar_foldlevel = 0
 
 set updatetime=1000
 
-nnoremap <silent> <M-t> :TagbarToggle<CR>
+nnoremap <silent> <Leader>t :TagbarToggle<CR>
 
 "gutentags settings
 let g:gutentags_cache_dir = '~/.vim/tags//'
@@ -194,8 +194,8 @@ let g:gutentags_cache_dir = '~/.vim/tags//'
 let g:PreviewBrowsers = 'google-chrome,firefox'
 
 "NERDtree settings
-nnoremap <silent> <M-n> :NERDTreeToggle<CR>
-nnoremap <silent> <M-f> :NERDTreeFind<CR>
+nnoremap <silent> <Leader>n :NERDTreeToggle<CR>
+nnoremap <silent> <Leader>f :NERDTreeFind<CR>
 
 "reset keyword lookup program to :help
 set keywordprg=
