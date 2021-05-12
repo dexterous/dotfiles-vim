@@ -158,9 +158,9 @@ let g:lightline = {
       \  'active': {
       \    'left': [ [ 'mode', 'paste' ],
       \              [ 'gitbranch', 'readonly', 'filename', 'tag', 'modified' ] ],
-		  \    'right': [ [ 'lineinfo' ],
-		  \               [ 'percent' ],
-		  \               [ 'gutentags', 'filetype', 'fileencoding', 'fileformat' ] ]
+      \    'right': [ [ 'lineinfo' ],
+      \               [ 'percent' ],
+      \               [ 'gutentags', 'filetype', 'fileencoding', 'fileformat' ] ]
       \  },
       \  'component_function': {
       \    'gitbranch': 'fugitive#head',
