@@ -86,6 +86,10 @@ autocmd BufNewFile,BufRead *.gradle set filetype=groovy
 autocmd BufNewFile,BufRead Vagrantfile set filetype=ruby
 autocmd BufNewFile,BufRead requirements*.txt set filetype=python
 
+"diffopt
+set diffopt+=context:3
+set diffopt+=algorithm:patience
+
 "ctrl-p config
 let g:ctrlp_custom_ignore = { 'dir': 'node_modules' }
 
