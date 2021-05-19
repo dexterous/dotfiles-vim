@@ -150,10 +150,14 @@ set listchars=tab:»\ ,eol:¬,trail:¤,nbsp:°
 "set list
 
 "search settings
-set hlsearch
+set nohlsearch
 set incsearch
 
-nnoremap <silent> <C-l> :nohlsearch<CR>
+augroup incsearch-highlight
+  autocmd!
+  autocmd CmdlineEnter /,\? set hlsearch
+  autocmd CmdlineLeave /,\? set nohlsearch
+augroup end
 
 "lightline setting
 set noshowmode
