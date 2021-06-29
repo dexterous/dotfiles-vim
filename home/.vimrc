@@ -106,8 +106,7 @@ let g:fzf_layout = { 'down': '15%' }
 
 augroup fzf
   autocmd! FileType fzf
-  autocmd FileType fzf set laststatus=0
-  autocmd BufLeave <buffer> set laststatus=2
+  autocmd FileType fzf set laststatus=0 | autocmd BufLeave <buffer> set laststatus=2
 augroup end
 
 "gvimfullscreen config
