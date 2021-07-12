@@ -71,7 +71,7 @@ Plug 'clojure-vim/vim-cider'
 Plug 'greyblake/vim-preview'
 Plug 'bfrg/vim-jqplay'
 Plug 'hashivim/vim-terraform'
-Plug 'instant-markdown/vim-instant-markdown'
+Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown' }
 
 "TODO: figure out config
 "Plug 'klen/python-mode'
