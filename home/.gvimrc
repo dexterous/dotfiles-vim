@@ -1,5 +1,5 @@
 if has('mac')
-  set guifont=InconsolataForPowerline:h11
+  set guifont=InconsolataNerdFontComplete-Medium:h12
 else
   set guifont=Inconsolata\ for\ Powerline\ Medium\ 10
 endif
