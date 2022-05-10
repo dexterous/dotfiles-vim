@@ -1,5 +1,6 @@
 if has('win64') || has('win32')
   set runtimepath+=~/.vim
+  set shell=C:\ProgramData\chocolatey\lib\powershell.portable\tools\pwsh\pwsh.exe\ -NoLogo
 endif
 
 set directory=$HOME/.vim/swap//,$TEMP,c:/tmp,c:/temp
