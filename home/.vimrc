@@ -30,7 +30,7 @@ Plug 'scrooloose/syntastic'
 Plug 'tpope/vim-dispatch', { 'on': 'Dispatch' }
 "Plug 'rosenfeld/conque-term'
 Plug 'jceb/vim-orgmode'
-Plug 'junegunn/fzf'
+Plug 'junegunn/fzf' ", { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
 if has('win64') || has('win32')
