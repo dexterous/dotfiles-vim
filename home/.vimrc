@@ -206,7 +206,7 @@ endfunction
 set encoding=utf-8
 
 function! LightlineGitHead()
-  return fugitive#head() !=# '' ? "⌥ " . fugitive#head() : ''
+  return FugitiveHead() !=# '' ? "⌥ " . FugitiveHead() : ''
 endfunction
 
 "tagbar settings
