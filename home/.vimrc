@@ -243,5 +243,4 @@ autocmd BufNewFile,BufRead *.py set keywordprg=pydoc
 
 "custom keymapping
 cnoremap w!! w !sudo tee % >/dev/null
-cnoremap push<space> push<space>
-cnoremap h<space> vert h<space>
+cnoremap h<space><space> vert h<space>
